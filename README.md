@@ -36,6 +36,7 @@ Start mininet:
 In the mininet terminal, you can use ping to see if the policies were succesfully implemented. For example,
 
 ```$ h1 ping -c1 h3```
+
 ```$ h2 ping -c2 h4```
 
 # Testing your code
