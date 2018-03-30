@@ -1,6 +1,7 @@
 # Firewall Using Software Defined Networking
 
 This project implements a firewall using the mininet environment and the SDN controller pox. [mininet](https://github.com/mininet/mininet) [pox](https://github.com/noxrepo/pox)
+
 The easiest way to run it is by installing a mininet virtual machine, available [here.](homepages.dcc.ufmg.br/~mmvieira/cc/pyretic_0.2.0.ova)
 
 All the files in this repo should go under pox/pox/misc on the virtual machine.
@@ -34,8 +35,8 @@ Start mininet:
 
 In the mininet terminal, you can use ping to see if the policies were succesfully implemented. For example,
 
-h1 ping -c1 h3
-h2 ping -c2 h4
+```$ h1 ping -c1 h3```
+```$ h2 ping -c2 h4```
 
 # Testing your code
 
