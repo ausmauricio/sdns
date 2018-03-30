@@ -10,7 +10,7 @@ You may wanna watch [this](https://www.youtube.com/watch?v=yNmv7GiHIKE) mininet 
 
 # Overview
 
-The network you'll use in this exercise includes 3 hosts and a switch with an OpenFlow controller (POX):
+The network using a switch with an OpenFlow controller (POX) looks something like this:
 
 ![Image1](http://homepages.dcc.ufmg.br/~mmvieira/cc/Assignment%20Details%20_%20Coursera4_files/JgNextBvzib8PTXVvnA-4QF-D5J3GdqxIoVKvuRwo0gPhgqRppQ6DH32SdWb.png)
 
@@ -31,13 +31,13 @@ Start pox:
 
 Start mininet:
 
-```$ sudo mn --topo single,3 --controller remote --mac```
+```$ sudo mn --topo single,8 --controller remote --mac```
 
 In the mininet terminal, you can use ping to see if the policies were succesfully implemented. For example,
 
 ```$ h1 ping -c1 h3```
 
-```$ h2 ping -c2 h4```
+```$ h2 ping -c2 h7```
 
 # Testing your code
 
